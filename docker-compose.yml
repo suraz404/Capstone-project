@@ -9,7 +9,7 @@ services:
 
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: process.env.PASSWORD
+      POSTGRES_PASSWORD: ${PASSWORD}
       POSTGRES_DB: nodejs-capstone
 
     volumes:
